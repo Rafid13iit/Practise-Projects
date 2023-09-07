@@ -12,19 +12,11 @@ body {
   overflow: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-#wrapper {
-  display: flex;
-  flex-direction: row;
-}
+
 
 #left {
   display: flex;
