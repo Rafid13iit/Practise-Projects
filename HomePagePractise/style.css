@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 3px solid aquamarine;
+    font-size: 1.2rem;
+}
+
+.nav_bar {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+.rafid_io {
+    color:black;
+    font-family: Consolas;
+    font-size: 3rem;
+    text-align: left;
+}
