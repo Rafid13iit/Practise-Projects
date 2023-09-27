@@ -10,20 +10,64 @@
 
 .border:hover {
     border: 3px solid aquamarine;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .nav_bar {
+    height: 80px;
     color: black;
     display: flex;
     align-items: center;
-    text-align: right;
     justify-content: space-evenly;
+}
+
+.nav_bar_right{
+    width: 70%;
+    font-size: 1.2rem;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.nav_bar_right div{
+    margin-left: 60px;
 }
 
 .rafid_io {
     color:black;
     font-family: Consolas;
     font-size: 3rem;
-    text-align: left;
+    font-weight: 700;
+}
+
+.bg_img {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.text1 {
+    color:black;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text2 {
+    color:black;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.text_only {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text_and_image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
