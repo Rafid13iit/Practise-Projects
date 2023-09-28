@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 * {
     margin: 0;
-    font-family: Arial;
+    /* font-family: Arial; */
     border: border-box;
 }
 
 .border {
     border: 1.5px solid transparent;
+    /* cursor: pointer; */
 }
 
 .border:hover {
-    border: 3px solid aquamarine;
-    font-size: 1.4rem;
+    /* border: 3px solid aquamarine; */
+    padding: 0.2rem 0.8rem;
+    display: block;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
 
 .nav_bar {
@@ -36,9 +45,15 @@
 
 .rafid_io {
     color:black;
-    font-family: Consolas;
+    font-family: Arial;
     font-size: 3rem;
     font-weight: 700;
+}
+
+.rafid_io:hover {
+    cursor: pointer;
+    border: 3px solid aquamarine;
+    font-size: 4rem;
 }
 
 .bg_img {
@@ -51,23 +66,54 @@
     color:black;
     font-family: Arial;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .text2 {
     color:black;
     font-family: Arial;
     font-size: 1rem;
-    font-weight: 600;
 }
 
 .text_only {
+    height: 400px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .text_and_image {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.text_only div{
+    margin-left: 60px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
     justify-content: space-evenly;
+}
+
+.button {
+    padding: 0.6rem 1.4rem;
+    /* height: 2.7rem; */
+    display: block;
+    border: 0;
+    border-radius: 7px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ff7b39;
+    color: black;
 }
