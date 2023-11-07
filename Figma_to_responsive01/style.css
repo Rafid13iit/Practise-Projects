@@ -10,5 +10,115 @@
     --white : #FFFFFF;
 }
 
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    /* background: linear-gradient(175deg, #B81C85 6.14%, #271D65 87.27%, #B6116B 87.27%); */  
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* buttons */
+
+.btn {
+    display: inline-flex;
+    height: 57px;
+    padding: 10px 28px;
+    align-items: center;
+    border-radius: 18px;
+    border: 3px solid #09FBD3;
+    background: linear-gradient(260deg, #271D65 10.51%, rgba(39, 29, 101, 0.00) 107.66%);
+    color: var(--white);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 350;
+    text-decoration: none;
+}
+
+.btn.wide {
+    display: inline-flex;
+    width: 563px;
+    padding: 10px 28px;
+    align-items: center;
+    border-radius: 18px;
+    border: 3px solid #09FBD3;
+    background: linear-gradient(260deg, #271D65 10.51%, rgba(39, 29, 101, 0.00) 107.66%);
+    color: linear-gradient(112deg, #18E3C2 35.8%, rgba(250, 253, 254, 0.00) 152.43%);
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+
+.btn2 {
+    display: flex;
+    width: 203px;
+    height: 57px;
+    padding: 10px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    border: 3px solid #09FBD3;
+    background: linear-gradient(260deg, #271D65 10.51%, rgba(39, 29, 101, 0.00) 107.66%);
+    /* color: linear-gradient(112deg, #18E3C2 35.8%, rgba(250, 253, 254, 0.00) 152.43%); */
+    color: var(--white);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* header */
+
+header {
+    background: linear-gradient(175deg, #B81C85 0%, #271D65 100%, #B6116B 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22vh;
+}
+
+.logo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.up-down-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 100px; /* Set the desired height */
+    gap: 25px;
+  }
+
+.hero-section1 ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 25px;
+}
+
+.hero-section2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 5px;
+}
+
 
 
