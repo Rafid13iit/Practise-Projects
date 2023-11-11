@@ -84,3 +84,27 @@ h1.city {
   top: 0;
   left: 20px;
 }
+
+.card.good {
+  background-color: #4CAF50; /* Green for good air quality */
+}
+
+.card.moderate {
+  background-color: #FFC107; /* Yellow for moderate air quality */
+}
+
+.card.unhealthy-for-sensitive-groups {
+  background-color: #FF5722; /* Orange for unhealthy for sensitive groups */
+}
+
+.card.unhealthy {
+  background-color: #FE0000; /* Red for unhealthy air quality */
+}
+
+.card.very-unhealthy {
+  background-color: #9C27B0; /* Purple for very unhealthy air quality */
+}
+
+.card.hazardous {
+  background-color: #990134; /* Grey for hazardous air quality */
+}
