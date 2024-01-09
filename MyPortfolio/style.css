@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #212529;
+    border-bottom: 4px solid #ffc107;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Hero Section Styles */
+
+#hero {
+    padding: 80px 0; /* Adjust the top and bottom padding as needed */
+    background-color: #f8f9fa; /* Set a background color for the hero section */
+}
+
+.hero-image {
+    width: 50%;
+    max-width: 150px; /* Adjust the max-width of the circular image */
+    border: 8px solid #fff; /* Optional: Add a border around the circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.hero-content {
+    max-width: 500px; /* Adjust the max-width of the content container */
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    font-weight: 350;
+    margin-bottom: 40px;
+} 
+
+/* About Section */
+.about-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.project-filter {
+    margin-bottom: 30px;
+}
+
+.project-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}

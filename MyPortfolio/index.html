@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafid's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/MyPortfolio_favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Ibne Bin Rafid</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 order-md-1">
+                    <img src="images/Rafid.jpg" alt="Your Image" class="img-fluid rounded-circle mb-4 hero-image">
+                </div>
+                <div class="col-md-6 order-md-2">
+                    <div class="hero-content text-md-left">
+                        <h1 class="display-4 font-weight-bold mb-3">Hello, I'm Rafid</h1>
+                        <p class="lead">BSc. Software Engineering @ IIT, Dhaka University | Coding Enthusiast | Web Developer | UI/UX Designer | Problem-Solver</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p class="text-center">I am enthusiastic BSc. Software Engineering student at Institute of Information Technology (IIT), University of Dhaka, passionate about coding and problem-solving. Aiming to carve a niche in the tech industry, I'm dedicated to honing my skills in web development and UI/UX design. Actively engaged in learning and applying theoretical knowledge to real-world projects. Open to collaboration, eager to contribute, and excited about the journey of continuous growth in the dynamic field of software engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h4>HTML5</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 90%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h4>CSS3</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <h4>JavaScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+
+            <!-- Project Filtering -->
+            <div class="text-center project-filter">
+                <button class="btn btn-outline-primary" data-filter="all">All</button>
+                <button class="btn btn-outline-primary" data-filter="web">Web</button>
+                <button class="btn btn-outline-primary" data-filter="mobile">Mobile</button>
+                <!-- Add more categories as needed -->
+            </div>
+
+            <!-- Project Cards -->
+            <div class="row">
+                <div class="col-md-4 project-card web">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of Project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-card mobile">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of Project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-card web">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of Project 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Rafid. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS for Project Filtering -->
+    <script src="script.js"></script>
+
+</body>
+</html>
