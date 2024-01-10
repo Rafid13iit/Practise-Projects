@@ -22,7 +22,7 @@ body {
 
 #hero {
     padding: 80px 0; /* Adjust the top and bottom padding as needed */
-    background-color: #f8f9fa; /* Set a background color for the hero section */
+    background-color: #dfdddd; /* Set a background color for the hero section */
 }
 
 .hero-image {
@@ -52,7 +52,7 @@ body {
 /* About Section */
 .about-section {
     background-color: #ffffff;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .about-section h2 {
@@ -68,9 +68,23 @@ body {
     color: #6c757d;
 }
 
+/* Education Styles */
+.education-section h2, h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.education-section p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
 /* Skills Section */
 .skills-section {
-    background-color: #f8f9fa;
+    background-color: #dfdddd;
     padding: 50px 0;
 }
 
@@ -114,9 +128,28 @@ body {
     transform: scale(1.05);
 }
 
+/* experiences section */
+.experiences-section {
+    background-color: #dfdddd;
+    padding: 50px 0;
+}
+
+.experiences-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.experiences-section p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
 /* Contact Section */
 .contact-section {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 50px 0;
 }
 
